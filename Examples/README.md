@@ -21,7 +21,8 @@ theoretical background and practical context. However, a short summary is provid
 This code evaluates correlation between two modal models using a transformation matrix **T = pinv(B)·A**, where **B** and **A** are 
 the modal matrices of systems B and A, respectively.  
 
-Accorting to structural dynamic modification theory (SDM) the following can be stated:
+Based on Structural Dynamic Modification (SDM) theory, the interpretation of the transformation matrix T depends on whether the observed discrepancies arise from changes in mass or stiffness.
+Accordingly, the following can be stated:
 
 |                        |&nbsp; Stiffness (Well-separated) &nbsp;|&nbsp; Stiffness (Repeated) &nbsp;|&nbsp; Mass (Well-separated) &nbsp;|&nbsp; Mass (Repeated) &nbsp;|
 | :---                   | :---:                                  | :---:                            | :---:                             |:---:                        |
